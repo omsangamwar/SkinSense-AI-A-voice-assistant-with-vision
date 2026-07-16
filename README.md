@@ -1,26 +1,6 @@
 # SkinSense AI — A voice-assistant-with-vision.
 
 An AI-powered, voice-to-voice skin consultation assistant. A patient speaks a description of their concern and uploads a skin **image or video**; the app transcribes the voice, analyzes the visual, generates a doctor-style response, and speaks that response back — a full voice-in / voice-out loop, not just text
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technical Architecture](#technical-architecture)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
-- [Setup](#setup)
-- [Environment Variables](#environment-variables)
-- [Run the App](#run-the-app)
-- [How It Works](#how-it-works)
-- [Roadmap](#roadmap)
-- [Security & Privacy](#security--privacy)
-- [Credits](#credits)
-- [License](#license)
-
 ---
 
 ## Overview
@@ -87,7 +67,7 @@ Patient uploads image/video ─────────────────�
 ## Project Structure
 
 ```text
-ai-skin-specialist/
+skinsense-ai/
 |-- main.py                       # Gradio application entry point (wires all 4 phases together)
 |-- voice_of_the_patient.py       # Microphone recording + STT (Groq / ElevenLabs)
 |-- brain_of_the_doctor_groq.py   # Groq vision/text response generation (default path)
@@ -110,4 +90,3 @@ ai-skin-specialist/
 - **FFmpeg** — audio/video conversion, used by `pydub` and frame extraction
 - **PortAudio** — microphone support, used by `pyaudio`/`speechrecognition`
 - API keys: **Groq**, and at least one of **Deepgram** or **ElevenLabs**
-
