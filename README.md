@@ -5,7 +5,7 @@ An AI-powered, voice-to-voice skin consultation assistant. A patient speaks a de
 
 ## Overview
 
-Traditional "upload a photo, get an AI opinion" skin-check tools stop at text. This project closes the loop: the patient **talks**, the assistant **sees and listens**, and the assistant **talks back** — like a real consultation, minus the ability to touch or examine physically (hence the disclaimer).
+Traditional "upload a photo, get an AI opinion" skin-check tools stop at text. This project closes the loop: the patient **talks**, the assistant **sees and listens**, and the assistant **talks back** — like a real consultation.
 
 The app is built around four cooperating phases (see the architecture diagram below), each of which can be swapped for a different provider without touching the others:
 
