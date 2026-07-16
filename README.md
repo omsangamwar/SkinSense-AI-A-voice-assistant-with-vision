@@ -1,4 +1,4 @@
-# AI Skin Specialist — Voice-to-Voice Edition
+# SkinSense AI — A voice-assistant-with-vision.
 
 An AI-powered, voice-to-voice skin consultation assistant. A patient speaks a description of their concern and uploads a skin **image or video**; the app transcribes the voice, analyzes the visual, generates a doctor-style response, and speaks that response back — a full voice-in / voice-out loop, not just text
 
